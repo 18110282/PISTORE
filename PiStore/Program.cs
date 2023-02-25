@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using PiStore.DAL;
 
 namespace PiStore
 {
@@ -17,6 +18,8 @@ namespace PiStore
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login());
+            //DAL_DBConnection dal = new DAL_DBConnection();
+
         }
     }
 }

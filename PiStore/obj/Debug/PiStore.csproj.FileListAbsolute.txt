@@ -9,3 +9,14 @@ C:\Users\Admin\source\repos\PiStore\PiStore\obj\Debug\PiStore.csproj.CoreCompile
 C:\Users\Admin\source\repos\PiStore\PiStore\obj\Debug\PiStore.exe
 C:\Users\Admin\source\repos\PiStore\PiStore\obj\Debug\PiStore.pdb
 C:\Users\Admin\source\repos\PiStore\PiStore\obj\Debug\PiStore.Login.resources
+D:\C#\PISTORE\PiStore\bin\Debug\PiStore.exe.config
+D:\C#\PISTORE\PiStore\bin\Debug\PiStore.exe
+D:\C#\PISTORE\PiStore\bin\Debug\PiStore.pdb
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.csprojAssemblyReference.cache
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.Form1.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.Login.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.Properties.Resources.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.csproj.GenerateResource.cache
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.csproj.CoreCompileInputs.cache
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.exe
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.pdb
