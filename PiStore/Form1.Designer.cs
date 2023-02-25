@@ -90,6 +90,7 @@ namespace PiStore
             this.BTN_EMPLOYEE.TabIndex = 24;
             this.BTN_EMPLOYEE.Text = "Nhân Viên";
             this.BTN_EMPLOYEE.UseVisualStyleBackColor = false;
+            this.BTN_EMPLOYEE.Click += new System.EventHandler(this.BTN_EMPLOYEE_Click);
             // 
             // BTN_ORDER
             // 

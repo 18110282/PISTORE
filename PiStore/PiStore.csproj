@@ -53,11 +53,53 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Form1.cs">
+    <Compile Include="GUI\AddOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="GUI\AddOrder.Designer.cs">
+      <DependentUpon>AddOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AddOrderItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AddOrderItem.Designer.cs">
+      <DependentUpon>AddOrderItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DetailClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DetailClient.Designer.cs">
+      <DependentUpon>DetailClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DetailEmPloyee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DetailEmPloyee.Designer.cs">
+      <DependentUpon>DetailEmPloyee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DETAILORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DETAILORDER.Designer.cs">
+      <DependentUpon>DETAILORDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QLDONHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QLDONHANG.Designer.cs">
+      <DependentUpon>QLDONHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QLKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QLKhachHang.Designer.cs">
+      <DependentUpon>QLKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QLNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QLNhanVien.Designer.cs">
+      <DependentUpon>QLNhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -70,8 +112,29 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\AddOrder.resx">
+      <DependentUpon>AddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AddOrderItem.resx">
+      <DependentUpon>AddOrderItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DetailClient.resx">
+      <DependentUpon>DetailClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DetailEmPloyee.resx">
+      <DependentUpon>DetailEmPloyee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DETAILORDER.resx">
+      <DependentUpon>DETAILORDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QLDONHANG.resx">
+      <DependentUpon>QLDONHANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QLKhachHang.resx">
+      <DependentUpon>QLKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QLNhanVien.resx">
+      <DependentUpon>QLNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

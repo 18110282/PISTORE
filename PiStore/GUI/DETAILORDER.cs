@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PiStore.GUI
 {
-    public partial class Form1 : Form
+    public partial class DETAILORDER : Form
     {
-        public Form1()
+        public DETAILORDER()
         {
             InitializeComponent();
+        }
+
+        private void BTN_EXIT_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -27,5 +27,12 @@ namespace PiStore
             LBL_TIME.Text = DateTime.Now.ToString("hh:mm:ss ");
             LBL_DATE.Text = DateTime.Now.ToString("yyyy-MM-dd");
         }
+
+        private void BTN_EMPLOYEE_Click(object sender, EventArgs e)
+        {
+            GUI.QLNhanVien frmNV = new GUI.QLNhanVien();
+            frmNV.ShowDialog();
+            this.Close();
+        }
     }
 }
