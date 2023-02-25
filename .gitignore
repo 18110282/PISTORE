@@ -1,4 +1,3 @@
 .vs
-.PiStore\bin\**
-.PiStore\obj\**
-
+PiStore\bin\**
+PiStore\obj\Debug\*.cache
