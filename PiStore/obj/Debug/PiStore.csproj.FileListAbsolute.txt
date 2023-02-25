@@ -47,3 +47,11 @@ C:\Users\Admin\Documents\GitHub\PISTORE\PiStore\obj\Debug\PiStore.GUI.DetailEmPl
 C:\Users\Admin\Documents\GitHub\PISTORE\PiStore\obj\Debug\PiStore.GUI.DetailClient.resources
 C:\Users\Admin\Documents\GitHub\PISTORE\PiStore\obj\Debug\PiStore.GUI.QLKhachHang.resources
 C:\Users\Admin\Documents\GitHub\PISTORE\PiStore\obj\Debug\PiStore.GUI.AddOrder.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.GUI.AddOrder.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.GUI.AddOrderItem.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.GUI.DetailClient.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.GUI.DetailEmPloyee.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.GUI.DETAILORDER.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.GUI.QLDONHANG.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.GUI.QLKhachHang.resources
+D:\C#\PISTORE\PiStore\obj\Debug\PiStore.GUI.QLNhanVien.resources

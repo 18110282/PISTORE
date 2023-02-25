@@ -20,9 +20,6 @@ namespace PiStore.DAL
         {
             //conn = new SqlConnection(@"Data Source=HIEU\SQLEXPRESS;Initial Catalog=PISTORE; Integrated Security=True");
             conn = new SqlConnection(@"Data Source=192.168.1.10\SQLEXPRESS;Initial Catalog=PISTORE; User ID=sa; Password=sa; Integrated Security=True; Trusted_Connection=false");
-            conn.Open();
-            MessageBox.Show("OK");
-            conn.Close();
         }
 
 

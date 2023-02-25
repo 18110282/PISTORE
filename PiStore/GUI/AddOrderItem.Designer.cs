@@ -53,6 +53,7 @@ namespace PiStore.GUI
             this.CB_SAN.Name = "CB_SAN";
             this.CB_SAN.Size = new System.Drawing.Size(365, 32);
             this.CB_SAN.TabIndex = 90;
+            this.CB_SAN.SelectedIndexChanged += new System.EventHandler(this.CB_SAN_SelectedIndexChanged);
             // 
             // BTN_EXIT
             // 

@@ -75,6 +75,7 @@ namespace PiStore.GUI
             this.BTN_NEXT.TabIndex = 74;
             this.BTN_NEXT.Text = "Tiếp Theo";
             this.BTN_NEXT.UseVisualStyleBackColor = false;
+            this.BTN_NEXT.Click += new System.EventHandler(this.BTN_NEXT_Click);
             // 
             // HD_ADDRESS
             // 
@@ -166,6 +167,7 @@ namespace PiStore.GUI
             this.CB_NHANVIEN.Name = "CB_NHANVIEN";
             this.CB_NHANVIEN.Size = new System.Drawing.Size(354, 32);
             this.CB_NHANVIEN.TabIndex = 78;
+            this.CB_NHANVIEN.SelectedIndexChanged += new System.EventHandler(this.CB_NHANVIEN_SelectedIndexChanged);
             // 
             // CB_KHACHHANG
             // 
@@ -175,6 +177,8 @@ namespace PiStore.GUI
             this.CB_KHACHHANG.Name = "CB_KHACHHANG";
             this.CB_KHACHHANG.Size = new System.Drawing.Size(354, 32);
             this.CB_KHACHHANG.TabIndex = 79;
+            this.CB_KHACHHANG.SelectedIndexChanged += new System.EventHandler(this.CB_KHACHHANG_SelectedIndexChanged);
+            this.CB_KHACHHANG.Click += new System.EventHandler(this.CB_KHACHHANG_Click);
             // 
             // AddOrder
             // 

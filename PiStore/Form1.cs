@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PiStore.GUI;
 
 namespace PiStore
 {
@@ -33,6 +34,17 @@ namespace PiStore
             GUI.QLNhanVien frmNV = new GUI.QLNhanVien();
             frmNV.ShowDialog();
             this.Close();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BTN_CLIENT_Click(object sender, EventArgs e)
+        {
+            QLKhachHang f = new QLKhachHang();
+            f.ShowDialog();
         }
     }
 }

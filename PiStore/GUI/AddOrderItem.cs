@@ -30,5 +30,10 @@ namespace PiStore.GUI
                     break;
             }
         }
+
+        private void CB_SAN_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -90,6 +90,7 @@ namespace PiStore.GUI
             this.BTN_THEM.TabIndex = 32;
             this.BTN_THEM.Text = "Thêm";
             this.BTN_THEM.UseVisualStyleBackColor = false;
+            this.BTN_THEM.Click += new System.EventHandler(this.BTN_THEM_Click);
             // 
             // BTN_XOA
             // 

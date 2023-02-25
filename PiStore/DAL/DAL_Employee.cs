@@ -77,7 +77,7 @@ namespace PiStore.DAL
             sqlParameters[5] = new SqlParameter("@HireDate", SqlDbType.DateTime);
             sqlParameters[5].Value = dto_Employee.HireDate;
 
-            sqlParameters[6] = new SqlParameter("@HireDate", SqlDbType.Int);
+            sqlParameters[6] = new SqlParameter("@ID", SqlDbType.Int);
             sqlParameters[6].Value = dto_Employee.ID1;
 
             return conn.executeUpdateQuery(UPDATE_QUERY, sqlParameters);

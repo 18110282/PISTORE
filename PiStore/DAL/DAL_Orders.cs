@@ -41,7 +41,7 @@ namespace PiStore.DAL
             sqlParameters[1] = new SqlParameter("@EmployeeID", SqlDbType.Int);
             sqlParameters[1].Value = dto_Orders.EmployeeID;
 
-            sqlParameters[2] = new SqlParameter("@OrderDate", SqlDbType.Int);
+            sqlParameters[2] = new SqlParameter("@OrderDate", SqlDbType.DateTime);
             sqlParameters[2].Value = dto_Orders.OrderDate;
 
             sqlParameters[3] = new SqlParameter("@TotalPrice", SqlDbType.Int);
@@ -58,7 +58,7 @@ namespace PiStore.DAL
             sqlParameters[1] = new SqlParameter("@EmployeeID", SqlDbType.Int);
             sqlParameters[1].Value = dto_Orders.EmployeeID;
 
-            sqlParameters[2] = new SqlParameter("@OrderDate", SqlDbType.Int);
+            sqlParameters[2] = new SqlParameter("@OrderDate", SqlDbType.DateTime);
             sqlParameters[2].Value = dto_Orders.OrderDate;
 
             sqlParameters[3] = new SqlParameter("@TotalPrice", SqlDbType.Int);

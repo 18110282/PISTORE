@@ -16,5 +16,11 @@ namespace PiStore.GUI
         {
             InitializeComponent();
         }
+
+        private void BTN_THEM_Click(object sender, EventArgs e)
+        {
+            AddOrder f = new AddOrder();
+            f.ShowDialog();
+        }
     }
 }

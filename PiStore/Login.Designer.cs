@@ -31,12 +31,12 @@ namespace PiStore
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.HD_PASSWORD = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.HD_USERNAME = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.PictureBox();
             this.BTN_LOGIN = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -68,6 +68,17 @@ namespace PiStore
             this.label3.TabIndex = 19;
             this.label3.Text = "Pi - Store";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PiStore.Properties.Resources._12_121334_superman_symbol_clipart_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(38, 70);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(104, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // HD_PASSWORD
             // 
             this.HD_PASSWORD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
@@ -80,7 +91,6 @@ namespace PiStore
             this.HD_PASSWORD.Name = "HD_PASSWORD";
             this.HD_PASSWORD.Size = new System.Drawing.Size(188, 24);
             this.HD_PASSWORD.TabIndex = 25;
-            this.HD_PASSWORD.Text = "Mật khẩu";
             // 
             // label1
             // 
@@ -124,18 +134,7 @@ namespace PiStore
             this.HD_USERNAME.Name = "HD_USERNAME";
             this.HD_USERNAME.Size = new System.Drawing.Size(188, 24);
             this.HD_USERNAME.TabIndex = 19;
-            this.HD_USERNAME.Text = "Tên đăng nhập";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PiStore.Properties.Resources._12_121334_superman_symbol_clipart_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(38, 70);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 94);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.HD_USERNAME.TextChanged += new System.EventHandler(this.HD_USERNAME_TextChanged);
             // 
             // btnExit
             // 
@@ -147,6 +146,7 @@ namespace PiStore
             this.btnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnExit.TabIndex = 24;
             this.btnExit.TabStop = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // BTN_LOGIN
             // 
@@ -164,6 +164,7 @@ namespace PiStore
             this.BTN_LOGIN.TabIndex = 26;
             this.BTN_LOGIN.Text = "Đăng Nhập";
             this.BTN_LOGIN.UseVisualStyleBackColor = false;
+            this.BTN_LOGIN.Click += new System.EventHandler(this.BTN_LOGIN_Click);
             // 
             // Login
             // 

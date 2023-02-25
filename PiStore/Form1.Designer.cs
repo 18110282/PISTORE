@@ -139,6 +139,7 @@ namespace PiStore
             this.BTN_CLIENT.TabIndex = 21;
             this.BTN_CLIENT.Text = "Khách Hàng";
             this.BTN_CLIENT.UseVisualStyleBackColor = false;
+            this.BTN_CLIENT.Click += new System.EventHandler(this.BTN_CLIENT_Click);
             // 
             // BTN_BILL
             // 
@@ -179,6 +180,7 @@ namespace PiStore
             this.btnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnExit.TabIndex = 27;
             this.btnExit.TabStop = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // LBL_DATE
             // 

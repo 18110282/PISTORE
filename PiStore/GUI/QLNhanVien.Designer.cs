@@ -31,15 +31,15 @@ namespace PiStore.GUI
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnExit = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.DGV_NHANVIEN = new System.Windows.Forms.DataGridView();
             this.BTN_EMPLOYEE = new System.Windows.Forms.Button();
             this.BTN_PRODUCT = new System.Windows.Forms.Button();
             this.BTN_CLIENT = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_NHANVIEN)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_NHANVIEN)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -51,6 +51,18 @@ namespace PiStore.GUI
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(938, 92);
             this.panel1.TabIndex = 1;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Image = global::PiStore.Properties.Resources.Close_Icon;
+            this.btnExit.Location = new System.Drawing.Point(875, 19);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(46, 46);
+            this.btnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnExit.TabIndex = 28;
+            this.btnExit.TabStop = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label3
             // 
@@ -80,6 +92,8 @@ namespace PiStore.GUI
             this.DGV_NHANVIEN.Name = "DGV_NHANVIEN";
             this.DGV_NHANVIEN.Size = new System.Drawing.Size(907, 416);
             this.DGV_NHANVIEN.TabIndex = 2;
+            this.DGV_NHANVIEN.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_NHANVIEN_CellClick);
+            this.DGV_NHANVIEN.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_NHANVIEN_CellContentClick);
             // 
             // BTN_EMPLOYEE
             // 
@@ -132,18 +146,6 @@ namespace PiStore.GUI
             this.BTN_CLIENT.UseVisualStyleBackColor = false;
             this.BTN_CLIENT.Click += new System.EventHandler(this.BTN_CLIENT_Click);
             // 
-            // btnExit
-            // 
-            this.btnExit.Image = global::PiStore.Properties.Resources.Close_Icon;
-            this.btnExit.Location = new System.Drawing.Point(875, 19);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(46, 46);
-            this.btnExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnExit.TabIndex = 28;
-            this.btnExit.TabStop = false;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
             // QLNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,10 +160,11 @@ namespace PiStore.GUI
             this.Name = "QLNhanVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.QLNhanVien_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_NHANVIEN)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_NHANVIEN)).EndInit();
             this.ResumeLayout(false);
 
         }

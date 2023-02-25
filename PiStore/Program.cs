@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using PiStore.DAL;
+using PiStore.GUI;
 
 namespace PiStore
 {
@@ -17,9 +18,10 @@ namespace PiStore
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GUI.AddOrder());
+            //Application.Run(new Login());
+            Application.Run(new QLDONHANG());
             //Application.Run(new GUI.QLNhanVien());
-            DAL_DBConnection dal = new DAL_DBConnection();
+            //DAL_DBConnection dal = new DAL_DBConnection();
 
         }
     }
