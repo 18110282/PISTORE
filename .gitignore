@@ -1,1 +1,4 @@
 .vs
+.PiStore\bin\Debug
+.PiStore\obj\Debug
+
