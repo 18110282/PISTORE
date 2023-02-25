@@ -1,4 +1,4 @@
 .vs
-.PiStore\bin\Debug
-.PiStore\obj\Debug
+.PiStore\bin\**
+.PiStore\obj\**
 
